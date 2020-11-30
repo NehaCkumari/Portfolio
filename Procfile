@@ -1,1 +1,1 @@
-echo "web: gunicorn personalweb.wsgi --log-file -" > Procfile
+web: node index.js
