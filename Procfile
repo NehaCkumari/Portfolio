@@ -1,1 +1,1 @@
-web: node server.js
+web: gunicorn portfolio.wsgi --log-file
