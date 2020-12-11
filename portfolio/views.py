@@ -1,4 +1,4 @@
-'''from django.shortcuts import render,redirect
+from django.shortcuts import render,redirect
 from .models import contact
 from .forms import ContactForm
 from django.contrib import messages
@@ -42,7 +42,7 @@ def email(request):
     return render(request, "index.html", {'form': form})
 
 def thanks(request):
-    return HttpResponse('Thank you for your message.')
+    return HttpResponse('Thank you for your message.')'''
 
 
 
