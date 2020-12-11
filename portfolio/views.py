@@ -3,7 +3,7 @@ from .models import contact
 from .forms import ContactForm
 from django.contrib import messages
 from django.http import HttpResponseRedirect
-from django.core.mail import send_email
+#from django.core.mail import send_email
 
 
 # Create your views here.
