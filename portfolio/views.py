@@ -16,8 +16,8 @@ def conn(request):
         form.save()
         form = ContactForm()
     context = {'form':form}
-    send_mail(form,['chandravanshi.neha01@gmail.com'])
-    return render(request,'result.html', context)'''
+    #send_mail(form,['chandravanshi.neha01@gmail.com'])
+    return render(request,'index.html', context)'''
 
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse, HttpResponseRedirect

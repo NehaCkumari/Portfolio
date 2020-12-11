@@ -5,7 +5,8 @@ urlpatterns = [
     path("",views.index,name="index"),
     path("conn",views.conn,name="conn"),
     
-]'''
+]
+'''
 from django.conf.urls import patterns, url
 from . import views
 
