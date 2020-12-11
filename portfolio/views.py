@@ -22,7 +22,7 @@ def conn(request):
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
-from portfolio.forms import ContactForm
+from .forms import ContactForm
 
 def email(request):
     if request.method == 'GET':
