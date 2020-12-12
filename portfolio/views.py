@@ -43,7 +43,7 @@ def contact_us(request):
             subject = form.cleaned_data['subject']
             message = "{0} has sent you a new message:\n\n{1}".format(sender_name, form.cleaned_data['message'])
             send_mail('New Enquiry', message, sender_email, ['chandravanshi.neha01@gmail.com'])
-            return HttpResponse('Thanks for contacting us!')
+            return HttpResponse('Thanks for contacting me!')
     else:
         form = ContactForm()
 
